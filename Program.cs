@@ -54,6 +54,9 @@ namespace EXE5_20210140141_Kelompok1
                 Console.WriteLine("Tidak ada data dalam antrian!");
                 return;
             }
+            Node display;
+            for (display = adri; display != null; display = display.next)
+                Console.WriteLine(display.nama);
         }
     }
     class Program

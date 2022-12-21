@@ -11,7 +11,10 @@ namespace EXE5_20210140141_Kelompok1
         public string nama;
         public Node next;
     }
-
+    class Queue
+    {
+        Node adri, khamid;
+    }
     class Program
     {
         static void Main(string[] args)

@@ -73,7 +73,7 @@ namespace EXE5_20210140141_Kelompok1
                 }
                 catch
                 {
-
+                    Console.WriteLine("Silahkan periksa kembali data yang kamu masukan!");
                 }
             }
         }

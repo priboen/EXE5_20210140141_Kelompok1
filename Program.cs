@@ -77,6 +77,25 @@ namespace EXE5_20210140141_Kelompok1
                     Console.Write("\nEnter your choice: ");
                     ch = Convert.ToChar(Console.ReadLine());
                     Console.WriteLine();
+                    switch (ch)
+                    {
+                        case '1':
+                            Console.WriteLine("Enter a number;  ");
+                            int num = Convert.ToInt32(Console.ReadLine());
+                            qw.insert();
+                            break;
+                        case '2':
+                            qw.delete();
+                            break;
+                        case '3':
+                            qw.display();
+                            break;
+                        case '4':
+                            return;
+                        default:
+                            Console.WriteLine("Invalid Option");
+                            break;
+                    }
                 }
                 catch
                 {

@@ -35,7 +35,14 @@ namespace EXE5_20210140141_Kelompok1
             }
             khamid.next = newnode;
             khamid = newnode;
-
+        }
+        public void delete()
+        {
+            if (adri == null)
+            {
+                Console.WriteLine("Tidak ada data dalam antrian!");
+                return;
+            }
         }
     }
     class Program

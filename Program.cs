@@ -80,8 +80,6 @@ namespace EXE5_20210140141_Kelompok1
                     switch (ch)
                     {
                         case '1':
-                            Console.WriteLine("Enter a number;  ");
-                            int num = Convert.ToInt32(Console.ReadLine());
                             qw.insert();
                             break;
                         case '2':

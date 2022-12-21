@@ -21,7 +21,9 @@ namespace EXE5_20210140141_Kelompok1
         }
         public void insert()
         {
-            
+            string valueread;
+            Node newnode = new Node();
+
         }
     }
     class Program

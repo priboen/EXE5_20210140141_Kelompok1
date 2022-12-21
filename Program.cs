@@ -27,6 +27,14 @@ namespace EXE5_20210140141_Kelompok1
             valueread = Console.ReadLine();
             newnode.nama = valueread;
             newnode.next = null;
+            if (adri == null)
+            {
+                adri = newnode;
+                khamid = newnode;
+                return;
+            }
+            khamid.next = newnode;
+            khamid = newnode;
 
         }
     }

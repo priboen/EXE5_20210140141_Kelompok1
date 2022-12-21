@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace EXE5_20210140141_Kelompok1
 {
-    
+    class Node
+    {
+        public string nama;
+        public Node next;
+    }
 
     class Program
     {

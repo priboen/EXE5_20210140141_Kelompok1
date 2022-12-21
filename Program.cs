@@ -23,8 +23,10 @@ namespace EXE5_20210140141_Kelompok1
         {
             string valueread;
             Node newnode = new Node();
-            Console.WriteLine("Masukan Input : ");
+            Console.Write("Masukan Input : ");
             valueread = Console.ReadLine();
+            newnode.nama = valueread;
+            newnode.next = null;
 
         }
     }

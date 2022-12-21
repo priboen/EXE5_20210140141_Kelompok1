@@ -43,6 +43,7 @@ namespace EXE5_20210140141_Kelompok1
                 Console.WriteLine("Tidak ada data dalam antrian!");
                 return;
             }
+            adri = adri.next;
         }
     }
     class Program

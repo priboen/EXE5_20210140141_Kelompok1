@@ -67,7 +67,14 @@ namespace EXE5_20210140141_Kelompok1
             char ch;
             while (true)
             {
+                try
+                {
 
+                }
+                catch
+                {
+
+                }
             }
         }
     }

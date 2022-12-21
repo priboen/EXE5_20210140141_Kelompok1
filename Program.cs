@@ -69,7 +69,14 @@ namespace EXE5_20210140141_Kelompok1
             {
                 try
                 {
-
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("1. Insert Data");
+                    Console.WriteLine("2. Delete Data");
+                    Console.WriteLine("3. Display Data");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("\nEnter your choice: ");
+                    ch = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
                 }
                 catch
                 {

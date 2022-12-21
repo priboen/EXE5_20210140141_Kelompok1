@@ -49,7 +49,11 @@ namespace EXE5_20210140141_Kelompok1
         }
         public void display()
         {
-
+            if (adri == null)
+            {
+                Console.WriteLine("Tidak ada data dalam antrian!");
+                return;
+            }
         }
     }
     class Program

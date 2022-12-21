@@ -43,6 +43,8 @@ namespace EXE5_20210140141_Kelompok1
                 Console.WriteLine("Tidak ada data dalam antrian!");
                 return;
             }
+            Console.WriteLine("Data yang dihapus dari antrian : " + adri.nama);
+            Console.ReadKey();
             adri = adri.next;
             if (adri == null)
                 khamid = null;
@@ -57,6 +59,8 @@ namespace EXE5_20210140141_Kelompok1
             Node display;
             for (display = adri; display != null; display = display.next)
                 Console.WriteLine(display.nama);
+            Console.WriteLine("\nTekan 'Enter' untuk melanjutkan Program");
+            Console.ReadKey();
         }
     }
     class Program
@@ -69,6 +73,7 @@ namespace EXE5_20210140141_Kelompok1
             {
                 try
                 {
+                    Console.Clear();
                     Console.WriteLine("Menu");
                     Console.WriteLine("1. Insert Data");
                     Console.WriteLine("2. Delete Data");
@@ -80,12 +85,15 @@ namespace EXE5_20210140141_Kelompok1
                     switch (ch)
                     {
                         case '1':
+                            Console.Clear();
                             qw.insert();
                             break;
                         case '2':
+                            Console.Clear();
                             qw.delete();
                             break;
                         case '3':
+                            Console.Clear();
                             qw.display();
                             break;
                         case '4':

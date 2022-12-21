@@ -44,6 +44,8 @@ namespace EXE5_20210140141_Kelompok1
                 return;
             }
             adri = adri.next;
+            if (adri == null)
+                khamid = null;
         }
     }
     class Program

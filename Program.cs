@@ -19,6 +19,10 @@ namespace EXE5_20210140141_Kelompok1
             adri = null;
             khamid = null;
         }
+        public void insert()
+        {
+            
+        }
     }
     class Program
     {

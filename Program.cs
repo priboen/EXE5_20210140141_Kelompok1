@@ -65,6 +65,10 @@ namespace EXE5_20210140141_Kelompok1
         {
             queue qw = new queue();
             char ch;
+            while (true)
+            {
+
+            }
         }
     }
 }

@@ -11,9 +11,14 @@ namespace EXE5_20210140141_Kelompok1
         public string nama;
         public Node next;
     }
-    class Queue
+    class queue
     {
         Node adri, khamid;
+        public queue()
+        {
+            adri = null;
+            khamid = null;
+        }
     }
     class Program
     {
